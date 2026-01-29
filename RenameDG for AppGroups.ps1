@@ -26,8 +26,8 @@
 .HISTORY       :    29th January 2026 - V1.0 - Initial version
 
 #> 
-[string]$csvPath = "C:\GitHub\ACT\CNAV\CorrepDG-ACT2.csv"
-[string]$ApplicationPath = "C:\GitHub\ACT\CNAV\ApplicationGroup.yml"
+[string]$csvPath = "C:\GitHub\ACT\CorrepDG-ACT.csv"
+[string]$ApplicationPath = "C:\GitHub\ACT\ApplicationGroup.yml"
 
         $ErrorActionPreference = "Stop"
 #$Scriptpath = Split-Path $MyInvocation.MyCommand.Path
@@ -131,6 +131,7 @@ foreach ($application in $Applicationgroupsdata){
                 }
         }
 }
+
 
 
 
