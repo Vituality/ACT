@@ -28,8 +28,8 @@
 
 #> 
 
-[string]$csvPath = "C:\GitHub\ACT\CNAV\CorrepDG-ACT2.csv"   #format CSV: Sources,Cibles
-[string]$ApplicationPath = "C:\GitHub\ACT\CNAV\Applicationcnp.yml" 
+[string]$csvPath = "C:\GitHub\ACT\CorrepDG-ACT.csv"   #format CSV: Sources,Cibles
+[string]$ApplicationPath = "C:\GitHub\ACT\Application.yml" 
 
 $Scriptpath = 'C:\GitHub\ACT\'
 
@@ -161,3 +161,4 @@ foreach ($application in $applications.ApplicationData){
                 }
         }
 }
+
